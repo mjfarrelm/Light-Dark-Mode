@@ -1,0 +1,23 @@
+.content-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button{
+    height: 5rem;
+    width: 11rem;
+    border-radius: 6%;
+}
+
+.button-image{
+    height: 4rem;
+    width: 8rem;
+}
+
+.heading-text{
+    font-size: 2rem;
+}
