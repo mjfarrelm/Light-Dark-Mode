@@ -26,8 +26,8 @@ body.dark{
 }
 
 .button{
-    height: 5rem;
-    width: 11rem;
+    height: 6rem;
+    width: 12rem;
     border: none;
     border-radius: 8%;
     font-size: 1em;
@@ -37,10 +37,10 @@ body.dark{
     color: var(--color)
 }
 
-.button:hover,
+/* .button:hover,
 .button:focus{
     transform:scale(1.5);
-}
+} */
 
 
 .button-image{
@@ -48,11 +48,7 @@ body.dark{
     width: 8rem;
 }
 
-.button-dark{
-    height: 5rem;
-    width: 11rem;
-  
-}
+
 
 .heading-text{
     font-size: 2.5rem;
