@@ -4,6 +4,8 @@ body{
     --text-color: black;
     --button-text-color: white;
 
+    --transition-delay: 1s;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +13,7 @@ body{
     height: 100vh;
     margin: 0;
 
+    transition: var(--transition-delay);
     background-color: var(--background-color);
     color: var(--text-color);
    
@@ -34,10 +37,10 @@ body.dark{
     color: var(--color)
 }
 
-/* .button:hover,
+.button:hover,
 .button:focus{
     transform:scale(1.5);
-} */
+}
 
 
 .button-image{
@@ -54,4 +57,5 @@ body.dark{
 .heading-text{
     font-size: 2.5rem;
 }
+
 
